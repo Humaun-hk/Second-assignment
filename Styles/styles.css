@@ -320,6 +320,7 @@ main {
   font-weight: 600;
 }
 /* BMI text section */
+
 .bmi {
   margin-left: 250px;
 }
@@ -436,6 +437,107 @@ td {
   width: 100%;
   color: rgba(128, 128, 128, 0.881);
 }
-.calculate{
+.calculate {
   margin-top: 25px;
+}
+
+/* Team section */
+
+.team-section {
+  width: 1200px;
+  margin: 0 auto;
+}
+.team-text {
+  margin-top: 80px;
+  margin-bottom: 50px;
+  text-align: center;
+}
+.team-text h1 {
+  font-size: 3rem;
+  font-weight: 900;
+}
+.team-text p {
+  font-size: 14px;
+  font-weight: 400;
+  opacity: 0.5;
+}
+.team-pic {
+  background-color: rgba(255, 255, 255, 0.1);
+  border-radius: 10px;
+}
+
+.trainer-1{
+  width: 373.33px;
+  height: 270px;
+  background-image: url(../images/trainer1.png);
+  background-position: center;
+  background-size: cover;
+  border-radius: 15px;
+  margin-left: 20px;
+  margin-top: 20px;
+}
+.trainer-text {
+  margin-left: 20px;
+  margin-top: 200px;
+}
+.trainer-text h1 {
+  font-size: 1.3rem;
+}
+.trainer-text p {
+  margin-top: -10px;
+  font-size: 14px;
+  opacity: 0.5;
+}
+.trainer-2{
+  width: 373.33px;
+  height: 270px;
+  background-image: url(../images/trainer2.png);
+  background-position: center;
+  background-size: cover;
+  border-radius: 15px;
+  margin-left: 20px;
+  margin-top: 20px;
+}
+.trainer-3{
+  width: 373.33px;
+  height: 275px;
+  background-image: url(../images/trainer3.png);
+  background-position: center;
+  background-size: cover;
+  border-radius: 15px;
+  margin-left: 20px;
+  margin-top: 20px;
+}
+.trainer-4{
+  width: 373.33px;
+  height: 275px;
+  background-image: url(../images/trainer4.png);
+  background-position: center;
+  background-size: cover;
+  border-radius: 15px;
+  margin-left: 20px;
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+.trainer-5{
+  width: 373.33px;
+  height: 275px;
+  background-image: url(../images/trainer5.png);
+  background-position: center;
+  background-size: cover;
+  border-radius: 15px;
+  margin-left: 20px;
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+.trainer-6{
+  width: 373.33px;
+  height: 275px;
+  background-image: url(../images/trainer6.png);
+  background-position: center;
+  background-size: cover;
+  border-radius: 15px;
+  margin-left: 20px;
+  margin-top: 20px;
+  margin-bottom: 20px;
 }
