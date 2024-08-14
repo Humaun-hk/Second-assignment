@@ -178,6 +178,9 @@ main {
 }
 
 /* Trainings and Exercises section */
+.exercise{
+  margin: 80px auto;
+}
 
 .training h1 {
   font-size: 3rem;
