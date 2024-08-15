@@ -422,6 +422,7 @@ td {
 }
 .text p {
   margin: 20px 0px;
+  opacity: 0.5;
 }
 .height-weight {
   display: flex;
@@ -688,7 +689,7 @@ td {
   .img-div {
     margin: 40px;
   }
-  .exercise{
+  .exercise {
     margin: 20px;
   }
   .training h1 {
@@ -699,14 +700,53 @@ td {
     font-size: 14px;
     font-weight: 400;
   }
-  .card3 , .card6{
+  .card3,
+  .card6 {
     display: none;
   }
-  .card1{
+  .card1 {
     width: 250px;
   }
-  .card5{
+  .card5 {
     width: 250px;
+  }
+  .bmi {
+    margin: 20px;
+  }
+  .bmi-head {
+    font-size: 32px;
+    font-weight: 900;
+  }
+  .bmi-text {
+    font-size: 14px;
+    font-weight: 400;
+  }
+  .inner-bmi {
+    display: flex;
+    flex-direction: column;
+  }
+  .first-side {
+    margin-left: 20px;
+  }
+  .first-side h1 {
+    font-size: 16px;
+    font-weight: 900;
+  }
+  .table {
+    width: 310px;
+    height: 216px;
+  }
+  .text h1 {
+    font-size: 16px;
+    font-weight: 900;
+  }
+  .text p {
+    font-size: 14px;
+    font-weight: 400;
+  }
+  .second-side{
+    margin-left: -148px;
+    margin-top: 25px;
   }
   
 }
