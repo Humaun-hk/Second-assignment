@@ -60,7 +60,7 @@ main {
   font-weight: 500;
 }
 .brand {
-  font-size: 2.2rem;
+  font-size: 2.5rem;
   font-weight: 800;
   color: rgb(230, 83, 60);
   font-style: italic;
@@ -80,6 +80,9 @@ main {
   font-weight: 400;
   opacity: 0.5;
 }
+.full-banner{
+  justify-content: space-around;
+}
 .first-button {
   font-size: 18px;
   font-weight: 600;
@@ -97,25 +100,53 @@ main {
   cursor: pointer;
   margin-left: 15px;
 }
-.img-btn1 {
-  margin-left: -420px;
+/* two button */
+.fst-card {
   background-color: rgba(48, 48, 48, 0.54);
-  border: 0px;
+  width: 206px;
+  height: 96px;
   border-radius: 10px;
+  margin-top: -150px;
+  margin-left: -90px;
 }
-.btn-ex {
+.small-circle {
+  height: 40px;
+  width: 40px;
+  border-radius: 50%;
+  background-color: #e6533c;
+}
+.in-div {
+  justify-content: center;
+  align-items: center;
+  gap: 18px;
+}
+.ttx h1,
+.card-ttx h1 {
   font-size: 24px;
   font-weight: 900;
 }
-.btn-text {
+.ttx p,
+.card-ttx p {
   font-size: 16px;
   font-weight: 400;
   opacity: 0.5;
-  padding: 35px 25px;
 }
+.sec-card {
+  background-color: rgba(48, 48, 48, 0.54);
+  width: 206px;
+  height: 96px;
+  border-radius: 10px;
+  text-align: center;
+  margin-top: -390px;
+  margin-left: 230px;
+}
+.card-ttx{
+  padding-top: 3px;
+}
+
 .habit-section {
   text-align: center;
-  margin-top: 80px;
+  margin-top: 120px;
   margin-bottom: 50px;
 }
 .habit-text {
@@ -446,6 +477,7 @@ td {
 .team-section {
   width: 1200px;
   margin: 0 auto;
+  margin-bottom: 85px;
 }
 .team-text {
   margin-top: 80px;
@@ -466,7 +498,7 @@ td {
   border-radius: 10px;
 }
 
-.trainer-1{
+.trainer-1 {
   width: 373.33px;
   height: 270px;
   background-image: url(../images/trainer1.png);
@@ -488,7 +520,7 @@ td {
   font-size: 14px;
   opacity: 0.5;
 }
-.trainer-2{
+.trainer-2 {
   width: 373.33px;
   height: 270px;
   background-image: url(../images/trainer2.png);
@@ -498,7 +530,7 @@ td {
   margin-left: 20px;
   margin-top: 20px;
 }
-.trainer-3{
+.trainer-3 {
   width: 373.33px;
   height: 275px;
   background-image: url(../images/trainer3.png);
@@ -508,7 +540,7 @@ td {
   margin-left: 20px;
   margin-top: 20px;
 }
-.trainer-4{
+.trainer-4 {
   width: 373.33px;
   height: 275px;
   background-image: url(../images/trainer4.png);
@@ -519,7 +551,7 @@ td {
   margin-top: 20px;
   margin-bottom: 20px;
 }
-.trainer-5{
+.trainer-5 {
   width: 373.33px;
   height: 275px;
   background-image: url(../images/trainer5.png);
@@ -530,7 +562,7 @@ td {
   margin-top: 20px;
   margin-bottom: 20px;
 }
-.trainer-6{
+.trainer-6 {
   width: 373.33px;
   height: 275px;
   background-image: url(../images/trainer6.png);
@@ -540,4 +572,22 @@ td {
   margin-left: 20px;
   margin-top: 20px;
   margin-bottom: 20px;
+}
+
+/* footer section */
+.last-colour {
+  background-color: rgba(255, 255, 255, 0.1);
+}
+.last {
+  width: 1200px;
+  margin: 0 auto;
+  justify-content: space-around;
+}
+.last-colour p {
+  opacity: 0.5;
+}
+.end p {
+  border-top: 3px solid rgba(255, 255, 255, 0.1);
+  text-align: center;
+  padding: 20px;
 }
