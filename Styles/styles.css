@@ -653,4 +653,60 @@ td {
   .habit-section {
     margin-top: 390px;
   }
+  .habit-text {
+    font-size: 32px;
+    font-weight: 900;
+  }
+  .habit-pp {
+    font-size: 14px;
+    font-weight: 400;
+  }
+  .card,
+  .mile {
+    flex-direction: column;
+  }
+  .first-card {
+    margin-top: 25px;
+  }
+  .mile {
+    margin: 20px;
+  }
+  .mile-head {
+    font-size: 32px;
+    font-weight: 900;
+  }
+  .mile-pera {
+    font-size: 14px;
+    font-weight: 400;
+  }
+  #join-now {
+    margin-left: 45px;
+    margin-top: 25px;
+    padding-left: 80px;
+    padding-right: 80px;
+  }
+  .img-div {
+    margin: 40px;
+  }
+  .exercise{
+    margin: 20px;
+  }
+  .training h1 {
+    font-size: 32px;
+    font-weight: 900;
+  }
+  .training p {
+    font-size: 14px;
+    font-weight: 400;
+  }
+  .card3 , .card6{
+    display: none;
+  }
+  .card1{
+    width: 250px;
+  }
+  .card5{
+    width: 250px;
+  }
+  
 }
